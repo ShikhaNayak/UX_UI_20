@@ -15,7 +15,7 @@ p {
 .customNav {
   position: fixed;
   width: 100%;
-  background: url("../Images/nav.png");
+  background: url("../images/nav.png");
   background-color: transparent !important;
   background-size: cover;
   z-index: 10;
@@ -52,7 +52,7 @@ p {
 
 /* Jumbotron  */
 .jumbotron {
-  background-image: url("../Images/DOL_heroimage.png");
+  background-image: url("../images/DOL_heroimage.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: calc(100vh - 25px);
