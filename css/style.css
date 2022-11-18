@@ -1,151 +1,150 @@
 /* Text */
 h1, h2, h3 , h4, h5, h6 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 30px;
-    font-weight: 300;
-  }
-  p {
-    font-family: 'Poppins', sans-serif;
-    color: #3843D0;
-  }
-  
-  /* Navigation bar */
-  
-  /* General */
-  .customNav {
-    position: fixed;
-    width: 100%;
-    background: url("/HW_20_Trial/Images/nav.png");
-    background-color: transparent !important;
-    background-size: cover;
-    z-index: 10;
-  }
-  .navbar-nav {
-    margin-left: auto;
-    margin-right: 0 !important;
-    font-family: 'Poppins', sans-serif;
-    font-size: 22px;
-    font-weight: 300;
-  }
-  .navbar-brand img {
-    padding-right: 15px;
-    width: 65px;
-  }
-  .nav-item {
-    margin: 0px 15px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 22px;
-    font-weight: 300;
-  }
-  
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+}
+p {
+  font-family: 'Poppins', sans-serif;
+  color: #3843D0;
+}
 
-  
-  /* Navigation links */
-  .customNav a {
-    color: white !important;
-  }
-  .navCTA {
-    font-family: 'Poppins', sans-serif;
-    font-size: 22px;
-    font-weight: 300;
-  }
-  
-  /* Jumbotron  */
-  .jumbotron {
-    background-image: url(/HW_20_Trial/Images/DOL_heroimage.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: calc(100vh - 25px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  /* Jumbotron copy */
-  .imageContainer {
-    width: 80%;
-    margin-left: 50%;
-    min-width: 500px;
-    max-width: 700px;
-    color: white;
-    text-align: right;
-  }
+/* Navigation bar */
 
-  /* backimage */
+/* General */
+.customNav {
+  position: fixed;
+  width: 100%;
+  background: url("../Images/nav.png");
+  background-color: transparent !important;
+  background-size: cover;
+  z-index: 10;
+}
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0 !important;
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+}
+.navbar-brand img {
+  padding-right: 15px;
+  width: 65px;
+}
+.nav-item {
+  margin: 0px 15px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+}
 
-  .bgimage{
-   /* background-image: url(/HW_20_Trial/Images/bg_image.png);
-    background-size:cover;
-    background-repeat: no-repeat;
-    height: calc(200vh - 15px);*/
-    margin: 2%;
-    padding: 5%;
-    outline: 4px solid rebeccapurple;
-    align-items: center;
-    justify-content: center;
 
-  }
-  .border{
-    
-     margin: 2%;
-     padding: 5%;
-     outline: 4px solid rebeccapurple;
-     align-items: center;
-     justify-content: center;
- 
-   }
- .right-image{
-  width: 90%;
-  align-content: center;
+
+/* Navigation links */
+.customNav a {
+  color: white !important;
+}
+.navCTA {
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+/* Jumbotron  */
+.jumbotron {
+  background-image: url("../Images/DOL_heroimage.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Jumbotron copy */
+.imageContainer {
+  width: 80%;
+  margin-left: 50%;
+  min-width: 500px;
+  max-width: 700px;
+  color: white;
+  text-align: right;
+}
+
+/* backimage */
+
+.bgimage{
+ /* background-image: url(/HW_20_Trial/Images/bg_image.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: calc(200vh - 15px);*/
+  margin: 2%;
+  padding: 5%;
+  outline: 4px solid rebeccapurple;
+  align-items: center;
+  justify-content: center;
+
+}
+.border{
   
+   margin: 2%;
+   padding: 5%;
+   outline: 4px solid rebeccapurple;
+   align-items: center;
+   justify-content: center;
+
  }
- .details{
-  display: block;
-  text-align: left;
+.right-image{
+width: 90%;
+align-content: center;
+
+}
+.details{
+display: block;
+text-align: left;
+margin-left: 2%;
+margin-right: 2%;
+}
+.sectionHeading{
+  font-family: 'Poppins', sans-serif; 
+  margin-top: 3%;
+  margin-bottom: 3%;
+  padding-left: 5%;
+  color: #16006D
+}
+.bold-text {
+  font-family: 'Poppins', sans-serif;
   margin-left: 2%;
-  margin-right: 2%;
- }
-  .sectionHeading{
-    font-family: 'Poppins', sans-serif; 
-    margin-top: 3%;
-    margin-bottom: 3%;
-    padding-left: 5%;
-    color: #16006D
-  }
-  .bold-text {
-    font-family: 'Poppins', sans-serif;
-    margin-left: 2%;
-    padding-right: 2%;
-    font-size: 20px;
-    font-weight: 300;
-    color: #C83B70;
+  padding-right: 2%;
+  font-size: 20px;
+  font-weight: 300;
+  color: #C83B70;
 
-  }
-  row{
-    height: calc(100vh - 25px);
-    margin-top: 10%;
-  }
-  
- 
-  .imageContainer img {
-    width: 100%;
-  }
-  .imageContainer {
-    padding: 50px;
-  }
- 
-  
- 
- 
-  
+}
+row{
+  height: calc(100vh - 25px);
+  margin-top: 10%;
+}
 
-  footer {
-    display: none;
-   /* position: absolute;*/
-    width: 100%;
-    height: 60px;
-    line-height: 60px;
-    background-color: #16006D;
-    margin-top: 50px;
-  }
- 
+
+.imageContainer img {
+  width: 100%;
+}
+.imageContainer {
+  padding: 50px;
+}
+
+
+
+
+
+
+footer {
+  display: none;
+ /* position: absolute;*/
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #16006D;
+  margin-top: 50px;
+}
